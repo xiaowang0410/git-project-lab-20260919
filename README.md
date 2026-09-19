@@ -5,3 +5,7 @@
 使用 Python 实现一个简单的任务统计程序，练习 Git 提交、忽略规则、分支、远程同步、PR 与工单管理。
 
 运行：`python task_summary.py`
+
+## 远程同步记录
+
+此段通过 GitHub Contents API 更新，用于验证本地 `git pull --ff-only` 拉取远程提交。
