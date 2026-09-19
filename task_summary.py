@@ -1,5 +1,7 @@
 def summarize(tasks):
-    return {"total": len(tasks)}
+    total = len(tasks)
+    done = sum(bool(task.get("done", False)) for task in tasks)
+    return {"total": total, "done": done, "pending": total - done}
 
 
 if __name__ == "__main__":
